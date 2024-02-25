@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    color: aliceblue;
+}
+.navbar{
+    background: #404040;
+    padding: 20px 10px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul, li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+.container{
+    max-width: 1250px;
+    background-color: beige;
+    margin: auto;
+    padding: 20px 10px;
+    color: black;
+    
+}
+.card{
+    background: rgb(215, 228, 170);
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.input{
+    background: wheat;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
